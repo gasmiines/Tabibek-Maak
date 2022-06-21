@@ -1,0 +1,20 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.image-content {
+	padding-top: 35vh;
+	color: white;
+	text-align: center;
+}
+
+.image-main {
+	height: 100%;
+
+	background-image: url("../../img/hospital.jpg");
+
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

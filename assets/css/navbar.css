@@ -1,0 +1,28 @@
+.navbar {
+  box-shadow: 0 .05rem .5rem rgba(0,0,0,.5);
+}
+
+.navbar-link {
+	display: block;
+	padding: .5em 1em;
+	transition: 0.4s ease;
+   -webkit-transition: color 0.4s linear;
+   -moz-transition: color 0.4s linear;
+	color:#004080;
+}
+
+.navbar-link:focus,
+.navbar-link:hover {
+	background-color: #329599;
+	color: white
+
+}
+
+a:link {
+	text-decoration: none;
+}
+
+/*a:hover {
+  background-color: red;
+  color: blue;
+}*/
